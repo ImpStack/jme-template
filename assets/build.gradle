@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        resources {
+            srcDir '.'
+            exclude '*.gradle', 'build/**', 'out/**'
+        }
+    }
+}
