@@ -7,7 +7,7 @@ mainClassName = "org.impstack.Main"
 applicationDefaultJvmArgs = ["-Duser.language=en", "-Xms128m", "-Xmx512m", "-Dapplication.home=[MY_APP_HOME]"]
 
 ext {
-    jmeVersion = "3.2.+"
+    jmeVersion = "3.+"
 }
 
 repositories {
